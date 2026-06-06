@@ -5,8 +5,8 @@ Static website for [Kaleidoscope Learning](https://www.kaleidoscopelearn.com/).
 ## What's included
 
 - `index.html` — main page
-- `css/styles.css` — site styling
-- `images/` — logo and section photos
+- `styles.css` — site styling
+- `logo.png`, `hero.jpg`, etc. — images at repo root
 - Contact form powered by [Formspree](https://formspree.io/)
 
 ## Run locally
@@ -42,8 +42,13 @@ git push -u origin main
 - Your repo root should look like:
   ```
   index.html
-  css/styles.css
-  images/
+  styles.css
+  logo.png
+  hero.jpg
+  writing.jpg
+  executive.jpg
+  math.jpg
+  reading.jpg
   README.md
   ```
 - In **Settings → Pages**, use **GitHub Actions** as the source (not `/docs`)
